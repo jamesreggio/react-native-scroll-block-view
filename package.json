@@ -2,9 +2,12 @@
   "name": "react-native-scroll-block-view",
   "version": "1.0.0",
   "nativePackage": true,
-  "keywords": [
-    "react-native",
-    "native-modules"
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-native": ">=0.50.0"
+  }
 }
