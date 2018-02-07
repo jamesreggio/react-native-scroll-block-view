@@ -30,7 +30,7 @@ public class ScrollBlockView extends ReactViewGroup {
       parent.requestDisallowInterceptTouchEvent(true);
     }
 
-    return true;
+    return false;
   }
 
   @Override
